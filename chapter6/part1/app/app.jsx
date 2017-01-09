@@ -9,7 +9,7 @@ import {connect, Provider} from 'react-redux';
 import thunkMiddleware from 'redux-thunk';
 
 import Deskmark from 'components/Deskmark';
-import rootReducer from './reducers';
+import rootReducer from './reducers/index';
 import * as actionCreators from './actions';
 
 import 'bootstrap/scss/bootstrap.scss';
