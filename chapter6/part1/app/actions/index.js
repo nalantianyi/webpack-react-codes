@@ -2,7 +2,7 @@
  * @file main file for actions
  */
 
-import * as storage from './utils/storage';
+import * as storage from '../utils/storage';
 
 export const SELECT_ENTRY = 'SELECT_ENTRY';
 export const CREATE_NEW_ENTRY = 'CREATE_NEW_ENTRY';
